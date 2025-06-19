@@ -1,0 +1,102 @@
+// Sass stands for stynthetically awesome stylesheets
+// There are several ways to style our react app with css, they include
+// 1. Inline css styling
+// 2. External css file
+// 3. We might also make use of a css file extension
+//     the most popular/common one being sass()
+
+// Sass (Syntactically Awesome Stylesheets) is a CSS preprocessor that extends CSS with features like variables, nested rules, mixins, functions, and more. Here's a comprehensive overview of Sass, including mixins and other key features:
+
+// 1. Variables
+// Sass allows you to define reusable variables for colors, fonts, sizes, etc.
+
+// 2. Nesting
+// Sass allows you to nest CSS selectors, making the code more readable and organized.
+
+// 3. Partials and Imports
+// You can split your Sass code into smaller files (partials) and import them into a main file using @use or @import.
+
+// Partial file: _buttons.scss
+// Main file: styles.scss
+// 4. Mixins
+// Mixins allow you to create reusable blocks of code that can be included in multiple places.
+
+// 5. Functions
+// Sass functions allow you to perform calculations or manipulate values.
+
+// 6. Extends/Inheritance
+// You can share styles between selectors using @extend.
+
+// 7. Operators
+// Sass supports mathematical operations like addition, subtraction, multiplication, and division.
+
+// 8. Control Directives
+// Sass includes programming-like features such as loops, conditionals, and more.
+
+// If/Else:
+// For Loop:
+// Each Loop:
+// 9. Maps
+// Sass maps are like dictionaries for storing key-value pairs.
+
+// 10. Built-in Functions
+// Sass provides many built-in functions for color manipulation, string operations, and more.
+
+// Color Functions:
+// String Functions:
+// 11. Modules
+// Sass modules allow you to organize your code better using @use.
+
+// 12. Output Styles
+// Sass can compile into different CSS output styles:
+
+// nested: Indented CSS
+// expanded: Readable CSS
+// compact: Single-line CSS
+// compressed: Minified CSS
+// 13. Compiling Sass
+// You need to compile Sass into CSS using tools like:
+
+// Command Line:
+// Build Tools: Webpack, Gulp, etc.
+// VS Code Extensions: Live Sass Compiler.
+// 14. Error Handling
+// Sass provides helpful error messages for debugging. Use comments to document your code and avoid nesting too deeply.
+
+
+
+
+
+
+$radius: 0px 0px 15px 15px;
+$wrap: wrap;
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.user-container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: $wrap;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+
+    article{
+        background-color: cyan;
+        padding: 30px;
+        margin: 90px;
+        text-align: center;
+        border-radius: $radius;
+        align-items: center;
+        width: 30%;
+        min-width: 200px;
+        padding: 20px;
+
+        img{
+            border: $radius;
+        }
+    }
+}
