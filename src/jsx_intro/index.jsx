@@ -1,6 +1,6 @@
 import User from "./User"
 import '../App.css'
-import '../App.scss'
+import '../-App.css'
 import { useEffect, useState } from "react"
 import Job from "./Job"
 

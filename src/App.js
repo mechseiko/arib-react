@@ -2,7 +2,7 @@
 import JSXIntro from "./jsx_intro";
 import User from "./jsx_intro/User";
 import FormContainer from "./react_form";
-import "./App.scss"
+import "./-App.css"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UserDetails from "./jsx_intro/UserDetails";
 import Job from "./jsx_intro/Job";
@@ -11,7 +11,7 @@ import Job from "./jsx_intro/Job";
 // After importing Browser router, routes and routes from the react-router-dom,
 // We Open the tags as shown below and they take two arguments
 // 1. Path -- Specifies the name of the path
-// 2. Element -- Specifies the route of the .jx file we want to open
+// 2. Element -- Specifies the route of the .jsx file we want to open
 
 function App() { 
   return (

@@ -1,4 +1,4 @@
-// Sass stands for stynthetically awesome stylesheets
+/* // Sass stands for stynthetically awesome stylesheets
 // There are several ways to style our react app with css, they include
 // 1. Inline css styling
 // 2. External css file
@@ -62,14 +62,14 @@
 // VS Code Extensions: Live Sass Compiler.
 // 14. Error Handling
 // Sass provides helpful error messages for debugging. Use comments to document your code and avoid nesting too deeply.
+ */
 
 
 
 
-
-
+/* 
 $radius: 0px 0px 15px 15px;
-$wrap: wrap;
+$wrap: wrap; */
 
 *{
     padding: 0px;
@@ -80,7 +80,7 @@ $wrap: wrap;
 .user-container {
     display: -webkit-flex;
     display: flex;
-    flex-wrap: $wrap;
+    /* flex-wrap: $wrap; */
     justify-content: space-around;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 
@@ -89,14 +89,14 @@ $wrap: wrap;
         padding: 30px;
         margin: 90px;
         text-align: center;
-        border-radius: $radius;
+        /* border-radius: $radius; */
         align-items: center;
         width: 30%;
         min-width: 200px;
         padding: 20px;
 
-        img{
+        /* img{
             border: $radius;
-        }
+        } */
     }
 }
