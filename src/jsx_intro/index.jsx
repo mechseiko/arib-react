@@ -17,12 +17,6 @@ import Job from "./Job"
 // So you have to use the useState module
 // To work with each element of the array below, we use our knowledge of loops from js
 const JSXIntro = () => {
-    const [title, setTitle] = useState("Change Title")
-    const changeTitle = () => {
-       document.querySelector("button").textContent === "Change Title" ? setTitle("A new title") : setTitle("Change Title")
-    }
-
-
     // INTEGRATING API IN REACT USING USEEFFECT
     // The useEffect hook is going to rerun/rerender anythinh a state is updated
     // The useEffect takes two arguments, a function and an empty array to prevent running infinite loops
@@ -73,8 +67,6 @@ const JSXIntro = () => {
     ]
     return(
         <div className="user-container">
-            <h1>{title}</h1>
-            <button onClick={changeTitle}>Change Title</button>
         {/* // -----------STUDENTS---------- */}
             {
                 students.map((student, index) => {
