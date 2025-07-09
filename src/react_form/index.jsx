@@ -67,9 +67,6 @@
 
 
 
-
-
-
 // SAME CODE BUT WITH DRY PROTOCOL
 
 import { useState } from "react";
