@@ -23,4 +23,4 @@ const User = ({studentName, course, location, image}) => {
         </article>
     )
 } 
-export default User
+export default User;
