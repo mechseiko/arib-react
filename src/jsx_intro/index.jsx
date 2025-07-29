@@ -89,9 +89,9 @@ const JSXIntro = () => {
                     />
                 })
             }
-            {/* <User studentName = {"Bolaji Ajibola"} course = {"Front-End Development"} age = {20}/>
+            <User studentName = {"Bolaji Ajibola"} course = {"Front-End Development"} age = {20}/>
             <User studentName = {"ARIB ismail"} course = {"Back-End Development"} age = {17}/>
-            <User studentName = {"OLa folu"} course = {"Full-stack Development"} age = {18}/> */}
+            <User studentName = {"OLa folu"} course = {"Full-stack Development"} age = {18}/>
         </div>
     )
 }
